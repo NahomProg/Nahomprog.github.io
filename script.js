@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         setTimeout(() => {
             document.body.removeChild(overlay);
-        }, 5000);
+        }, 8000);
     }
     
     let isPlaying = false;
