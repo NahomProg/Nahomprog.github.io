@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine? 💖</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="hearts-background"></div>
+        
+        <div class="valentine-card">
+            <div class="card-header">
+                <h1><i class="fas fa-heart heartbeat"></i> For my Cutie <i class="fas fa-heart heartbeat"></i></h1>
+                <p class="subtitle">From NUNU to LOLA🍑</p>
+            </div>
+            
+            <div class="card-body">
+                <div class="message-box">
+                    <div class="love-letter">
+                        <p class="greeting">my dear Lola,</p>
+                        <p>I really missed you and your booty😩 I hope we will meet again soon.</p>
+                        <p class="poem">"Roses are red, violets are blue,<br>
+                        You're USA and i'm EZIHU😭."</p>
+                    </div>
+                </div>
+                
+                <div class="question-box">
+                    <h2><i class="fas fa-heart-pulse"></i> The Most Important Question...</h2>
+                    <div class="big-question">
+                        <p class="will-you">Will You Be My Valentine?</p>
+                        <p class="forever">Not just today, but every day?</p>
+                    </div>
+                    
+                    <div class="buttons">
+                        <button id="yesBtn" class="btn yes-btn">
+                            <i class="fas fa-heart-circle-check"></i> YES! I'LL BE YOUR VALENTINE🥰
+                        </button>
+                        <button id="noBtn" class="btn no-btn">
+                            <i class="fas fa-heart-crack"></i> NO🙄.....
+                        </button>
+                    </div>
+                    
+                    <div id="responseMessage" class="response-message">
+                        <div class="celebration">
+                            <i class="fas fa-heart-circle-plus"></i>
+                            <h3>You've Made Me The Happiest Person! 💝</h3>
+                            <p>I promise to take you to somewhere we will find our peace and happiness😌</p>
+                            <div class="countdown">
+                                <p>Our next celebration starts in:</p>
+                                <div class="countdown-timer">
+                                    <div><span id="days">0</span><br>Days</div>
+                                    <div><span id="hours">0</span><br>Hours</div>
+                                    <div><span id="minutes">0</span><br>Minutes</div>
+                                    <div><span id="seconds">0</span><br>Seconds</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="love-meter">
+                    <h3><i class="fas fa-heart-pulse"></i> How Much I Love You</h3>
+                    <div class="heart-container">
+                        <div class="heart-shape">
+                            <span id="heartPercent">100%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card-footer">
+                <p class="signature">With all my heart,<br>
+                <span class="your-name">NUNU😌</span></p>
+                <p class="date">February 14, 2024 💕</p>
+            </div>
+        </div>
+        
+        <div class="floating-hearts"></div>
+        
+        <div class="music-player">
+            <button id="musicToggle" class="music-btn">
+                <i class="fas fa-music"></i> <span>Play Love Song</span>
+            </button>
+            <audio id="loveSong" loop>
+                <source src="https://assets.mixkit.co/music/preview/mixkit-loving-you-117.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
